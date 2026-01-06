@@ -1,0 +1,109 @@
+{
+  "employes": [
+    {
+      "id": "1",
+      "nom": "Bachiri",
+      "grade": "Technicien",
+      "sexe": "m",
+      "salaire": 7500
+    },
+    {
+      "id": "2",
+      "nom": "Zeroual",
+      "grade": "Ingénieur",
+      "sexe": "f",
+      "salaire": 10500
+    },
+    {
+      "id": "3",
+      "nom": "Moumen",
+      "grade": "Cadre",
+      "sexe": "m",
+      "salaire": 15000
+    },
+    {
+      "id": "4",
+      "nom": "Lahmar",
+      "grade": "Technicien",
+      "sexe": "f",
+      "salaire": 8000
+    },
+    {
+      "id": "5",
+      "nom": "Khalfi",
+      "grade": "Ingénieur",
+      "sexe": "m",
+      "salaire": 11000
+    },
+    {
+      "id": "6",
+      "nom": "Amrani",
+      "grade": "Cadre",
+      "sexe": "f",
+      "salaire": 15500
+    },
+    {
+      "id": "7",
+      "nom": "Fassi",
+      "grade": "Technicien",
+      "sexe": "m",
+      "salaire": 7200
+    },
+    {
+      "id": "8",
+      "nom": "Rachidi",
+      "grade": "Ingénieur",
+      "sexe": "f",
+      "salaire": 10800
+    },
+    {
+      "id": "9",
+      "nom": "Sahli",
+      "grade": "Cadre",
+      "sexe": "m",
+      "salaire": 15200
+    },
+    {
+      "id": "10",
+      "nom": "El Alami",
+      "grade": "Technicien",
+      "sexe": "f",
+      "salaire": 7800
+    },
+    {
+      "id": "11",
+      "nom": "Benjelloun",
+      "grade": "Ingénieur",
+      "sexe": "m",
+      "salaire": 11200
+    },
+    {
+      "id": "12",
+      "nom": "Chakiri",
+      "grade": "Cadre",
+      "sexe": "f",
+      "salaire": 15800
+    },
+    {
+      "id": "13",
+      "nom": "Mansouri",
+      "grade": "Technicien",
+      "sexe": "m",
+      "salaire": 7600
+    },
+    {
+      "id": "14",
+      "nom": "El Fassi",
+      "grade": "Ingénieur",
+      "sexe": "f",
+      "salaire": 10900
+    },
+    {
+      "id": "15",
+      "nom": "Jabri",
+      "grade": "Cadre",
+      "sexe": "m",
+      "salaire": "1000"
+    }
+  ]
+}

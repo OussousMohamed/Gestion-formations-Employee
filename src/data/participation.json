@@ -1,0 +1,84 @@
+{
+  "participations": [
+    {
+      "id": "1",
+      "idform": "1",
+      "idemp": "1"
+    },
+    {
+      "id": "2",
+      "idform": "1",
+      "idemp": "2"
+    },
+    {
+      "id": "3",
+      "idemp": "1",
+      "idform": "9"
+    },
+    {
+      "id": "4",
+      "idform": "2",
+      "idemp": "3"
+    },
+    {
+      "id": "5",
+      "idform": "3",
+      "idemp": "2"
+    },
+    {
+      "id": "6",
+      "idform": "3",
+      "idemp": "3"
+    },
+    {
+      "id": "7",
+      "idemp": "15",
+      "idform": "13"
+    },
+    {
+      "id": "8",
+      "idemp": "11",
+      "idform": "8"
+    },
+    {
+      "id": "9",
+      "idemp": "12",
+      "idform": "3"
+    },
+    {
+      "id": "10",
+      "idemp": "10",
+      "idform": "11"
+    },
+    {
+      "id": "11",
+      "idemp": "4",
+      "idform": "7"
+    },
+    {
+      "id": "12",
+      "idemp": "6",
+      "idform": "5"
+    },
+    {
+      "id": "13",
+      "idemp": "9",
+      "idform": "9"
+    },
+    {
+      "id": "14",
+      "idemp": "14",
+      "idform": "12"
+    },
+    {
+      "id": "15",
+      "idemp": "5",
+      "idform": "4"
+    },
+    {
+      "id": "16",
+      "idemp": "1",
+      "idform": "3"
+    }
+  ]
+}

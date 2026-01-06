@@ -1,0 +1,109 @@
+{
+  "formations": [
+    {
+      "id": "1",
+      "Sujet": "Framework Angular",
+      "datedebut": "2025-12-16",
+      "datefin": "2025-12-21",
+      "etat": "encours"
+    },
+    {
+      "id": "2",
+      "Sujet": "Framework Angular",
+      "datedebut": "2025-12-16",
+      "datefin": "2025-12-21",
+      "etat": "encours"
+    },
+    {
+      "id": "3",
+      "Sujet": "PHP Laravel ",
+      "datedebut": "2025-12-29",
+      "datefin": "2026-01-02",
+      "etat": "programmée"
+    },
+    {
+      "id": "4",
+      "Sujet": "HTML 5 et CSS3",
+      "datedebut": "2025-10-12",
+      "datefin": "2025-10-15",
+      "etat": "terminée"
+    },
+    {
+      "id": "5",
+      "Sujet": "React js",
+      "datedebut": "2026-01-06",
+      "datefin": "2026-01-10",
+      "etat": "encours"
+    },
+    {
+      "id": "6",
+      "Sujet": "Node js",
+      "datedebut": "2026-01-20",
+      "datefin": "2026-01-25",
+      "etat": "programmée"
+    },
+    {
+      "id": "7",
+      "Sujet": "Python Django",
+      "datedebut": "2026-02-01",
+      "datefin": "2026-02-05",
+      "etat": "programmée"
+    },
+    {
+      "id": "8",
+      "Sujet": "Java Spring Boot",
+      "datedebut": "2026-02-10",
+      "datefin": "2026-02-15",
+      "etat": "programmée"
+    },
+    {
+      "id": "9",
+      "Sujet": "DevOps Basics",
+      "datedebut": "2026-02-20",
+      "datefin": "2026-02-25",
+      "etat": "programmée"
+    },
+    {
+      "id": "10",
+      "Sujet": "Cybersecurity Fundamentals",
+      "datedebut": "2026-03-01",
+      "datefin": "2026-03-05",
+      "etat": "programmée"
+    },
+    {
+      "id": "11",
+      "Sujet": "Data Science with Python",
+      "datedebut": "2026-03-10",
+      "datefin": "2026-03-15",
+      "etat": "programmée"
+    },
+    {
+      "id": "12",
+      "Sujet": "Machine Learning Basics",
+      "datedebut": "2026-03-20",
+      "datefin": "2026-03-25",
+      "etat": "programmée"
+    },
+    {
+      "id": "13",
+      "Sujet": "Cloud Computing with AWS",
+      "datedebut": "2026-04-01",
+      "datefin": "2026-04-05",
+      "etat": "programmée"
+    },
+    {
+      "id": "14",
+      "Sujet": "Agile Project Management",
+      "datedebut": "2026-04-10",
+      "datefin": "2026-04-15",
+      "etat": "programmée"
+    },
+    {
+      "id": "15",
+      "Sujet": "UI/UX Design Principles",
+      "datedebut": "2026-04-20",
+      "datefin": "2026-04-25",
+      "etat": "programmée"
+    }
+  ]
+}
