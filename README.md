@@ -39,11 +39,12 @@ npm install
 ### 2. Lancer les serveurs de données (JSON Servers)
 Ouvrez trois terminaux différents et lancez les commandes suivantes :
 
--- Serveur Employés (Port 5005) :
-    json-server --watch src/data/employe.json --port 5005
--- Serveur Formations (Port 8585) :
+* **Serveur Employés (Port 5005) :**
+  ```bash
+  json-server --watch src/data/employe.json --port 5005
+* **Serveur Formations (Port 8585) :**
     json-server --watch src/data/formation.json --port 8585
--- Serveur Participations (Port 5000) :
+* **Serveur Participations (Port 5000) :**
     json-server --watch src/data/participation.json --port 5000
 ### 3. Lancer l'application React
 Dans un nouveau terminal, lancez :
