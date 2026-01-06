@@ -33,9 +33,10 @@ Basé sur l'architecture Redux et une organisation par fonctionnalités :
 Pour faire fonctionner l'application, vous devez lancer le Frontend ainsi que les trois serveurs de données.
 
 ### 1. Cloner le projet et installer les dépendances
-git clone https://github.com/OussousMohamed/Gestion-formations-Employee.git
-cd Gestion-Formation-Employe
-npm install
+```bash
+    git clone https://github.com/OussousMohamed/Gestion-formations-Employee.git
+    cd Gestion-Formation-Employe
+    npm install
 ### 2. Lancer les serveurs de données (JSON Servers)
 Ouvrez trois terminaux différents et lancez les commandes suivantes :
 
@@ -43,10 +44,13 @@ Ouvrez trois terminaux différents et lancez les commandes suivantes :
   ```bash
   json-server --watch src/data/employe.json --port 5005
 * **Serveur Formations (Port 8585) :**
+   ```bash 
     json-server --watch src/data/formation.json --port 8585
 * **Serveur Participations (Port 5000) :**
+   ```bash 
     json-server --watch src/data/participation.json --port 5000
 ### 3. Lancer l'application React
 Dans un nouveau terminal, lancez :
+   ```bash 
     npm run dev
-    L'application sera accessible sur http://localhost:5173.
+L'application sera accessible sur http://localhost:5173.
