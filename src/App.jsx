@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import EmployeeList from "./components/EmployeeList"
 import FormationList from "./components/formationList"
 import Sidebar from './components/Sidebar';
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <ToastContainer position="top-center" autoClose={3000} />
-     <Router>
+        <BrowserRouter>
             <div className="d-flex">
                 <Sidebar />
                 
@@ -28,7 +28,7 @@ function App() {
                     </Routes>
                 </div>
             </div>
-        </Router>
+        </BrowserRouter>
     </>
   )
 }

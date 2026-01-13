@@ -104,6 +104,13 @@
       "grade": "Cadre",
       "sexe": "m",
       "salaire": "1000"
+    },
+    {
+      "id": "16",
+      "nom": "Abderahman",
+      "grade": "",
+      "sexe": "m",
+      "salaire": "50000"
     }
   ]
 }
