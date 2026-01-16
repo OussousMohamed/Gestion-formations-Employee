@@ -97,6 +97,12 @@ export default function EmployeeList(){
     }, [currentPage]);
 
     useEffect(() => {
+        setCurrentPage(1);
+        localStorage.setItem('employeeCurrentPage', 1);
+    }, [searchTerm, filterSexe, filterGrade, minSalaire, maxSalaire]
+    );
+
+    useEffect(() => {
         const totalPages = Math.ceil(employes.length / itemsPerPage);
         if (currentPage > totalPages && totalPages > 0) {
             setCurrentPage(totalPages);
@@ -174,8 +180,13 @@ export default function EmployeeList(){
                                 value={maxSalaire} onChange={(e) => setMaxSalaire(e.target.value)} />
                             {/*Réinitialiser */}
                             <button className="btn btn-outline-secondary" onClick={() => {
-                                setSearchTerm(""); setFilterSexe("all"); setFilterGrade("all");
-                                setMinSalaire(""); setMaxSalaire("");
+                                setSearchTerm(""); 
+                                setFilterSexe("all"); 
+                                setFilterGrade("all");
+                                setMinSalaire(""); 
+                                setMaxSalaire("");
+                                setCurrentPage(1);
+                                localStorage.setItem('employeeCurrentPage', 1);
                             }} title="Réinitialiser">
                                 <i className="bi bi-arrow-clockwise"></i>
                             </button>

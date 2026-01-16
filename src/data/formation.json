@@ -72,37 +72,23 @@
     },
     {
       "id": "11",
-      "Sujet": "Data Science with Python",
+      "Sujet": "Data Science ",
       "datedebut": "2026-03-10",
       "datefin": "2026-03-15",
       "etat": "programmée"
     },
     {
       "id": "12",
-      "Sujet": "Machine Learning Basics",
+      "Sujet": "Machine Learning ",
       "datedebut": "2026-03-20",
       "datefin": "2026-03-25",
       "etat": "programmée"
     },
     {
-      "id": "13",
-      "Sujet": "Cloud Computing with AWS",
-      "datedebut": "2026-04-01",
-      "datefin": "2026-04-05",
-      "etat": "programmée"
-    },
-    {
       "id": "14",
-      "Sujet": "Agile Project Management",
+      "Sujet": "Agile ",
       "datedebut": "2026-04-10",
       "datefin": "2026-04-15",
-      "etat": "programmée"
-    },
-    {
-      "id": "15",
-      "Sujet": "UI/UX Design Principles",
-      "datedebut": "2026-04-20",
-      "datefin": "2026-04-25",
       "etat": "programmée"
     }
   ]

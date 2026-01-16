@@ -29,8 +29,6 @@ export default function Statistics() {
     const counts = employes.map(emp => 
         participations.filter(p => String(p.idemp) === String(emp.id)).length
     );
-
-    // XLSX export function
    
 
     

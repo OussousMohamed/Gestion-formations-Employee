@@ -26,6 +26,7 @@ export default function FormationList(){
     const itemsPerPage = 5;
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstitem = indexOfLastItem - itemsPerPage;
+
     // Apliquer les filtres 
     const filteredFormations = formations.filter((f) => {
     const matchesName = f.Sujet.toLowerCase().includes(searchTerm.toLowerCase());
@@ -118,6 +119,12 @@ export default function FormationList(){
     }, [currentPage]);
 
     useEffect(() => {
+        setCurrentPage(1);
+        localStorage.setItem('currentPage', 1);
+    }, [searchTerm, filterEtat, startDate, endDate]
+    );
+
+    useEffect(() => {
         const totalPages = Math.ceil(formations.length / itemsPerPage);
         if (currentPage > totalPages && totalPages > 0) {
             setCurrentPage(totalPages);
@@ -195,7 +202,12 @@ export default function FormationList(){
                     {/* Reset */}
                     <div className="col-md-2 text-end">
                         <button className="btn btn-outline-secondary w-100" onClick={() => {
-                            setSearchTerm(""); setFilterEtat("all"); setStartDate(""); setEndDate("");
+                            setSearchTerm(""); 
+                            setFilterEtat("all"); 
+                            setStartDate(""); 
+                            setEndDate("");
+                            setCurrentPage(1);
+                            localStorage.setItem('currentPage', 1);
                         }}>
                             <i className="bi bi-arrow-clockwise me-1"></i> Reset
                         </button>
@@ -249,7 +261,7 @@ export default function FormationList(){
             {/*Paginnation */}
             <div className="mt-5">
                 <Paginnation 
-                    totalItems={formations.length}
+                    totalItems={filteredFormations.length}
                     itemsPerPage={itemsPerPage}
                     currentPage={currentPage}
                     onPageChange={(pageNumber) => setCurrentPage(pageNumber)}
